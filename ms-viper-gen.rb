@@ -1,4 +1,5 @@
 require 'fileutils'
+require 'date'
 
 moduleName = ARGV[0]
 destFolder = ARGV[1]
@@ -17,6 +18,10 @@ if moduleName != nil && destFolder != nil
 
     createDirectory(destFolder)
 
+    currentTime = DateTime.now
+    date = currentTime.strftime("%d/%m/%y")
+    year = currentTime.year
+    
     fileNames.each do |fileName|
         initFile = File.join("ViperTemplates", fileName)
         
@@ -36,6 +41,9 @@ if moduleName != nil && destFolder != nil
             newContent = newContent.gsub("{COMPANY}", company)
         end
         
+        newContent = newContent.gsub("{DATE}", date)
+        newContent = newContent.gsub("{YEAR}", year.to_s)
+
         destFileName = moduleName + fileName
         destFilePath = File.join(destFolder, destFileName)
         

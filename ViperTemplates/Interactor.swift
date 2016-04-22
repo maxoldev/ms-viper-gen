@@ -2,8 +2,8 @@
 //  {VIPER_MODULE_NAME}Interactor.swift
 //  {PROJECT}
 //
-//  Created by {AUTHOR} on 18/04/16.
-//  Copyright © 2016 {COMPANY}. All rights reserved.
+//  Created by {AUTHOR} on {DATE}.
+//  Copyright © {YEAR} {COMPANY}. All rights reserved.
 //
 
 import Foundation
