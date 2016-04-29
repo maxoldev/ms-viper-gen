@@ -14,15 +14,15 @@ protocol {VIPER_MODULE_NAME}ViewProtocol: BaseViewProtocol {
     
 }
 
-// Interactor
-
-protocol {VIPER_MODULE_NAME}InteractorProtocol: BaseInteractorProtocol {
-    
-}
-
 // Presenter
 
 protocol {VIPER_MODULE_NAME}PresenterProtocol: BasePresenterProtocol {
+    
+}
+
+// Interactor
+
+protocol {VIPER_MODULE_NAME}InteractorProtocol: BaseInteractorProtocol {
     
 }
 
