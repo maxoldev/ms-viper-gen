@@ -1,5 +1,5 @@
 //
-//  {VIPER_MODULE_NAME}Protocols.swift
+//  {VIPER_MODULE_NAME}View.swift
 //  {PROJECT}
 //
 //  Created by {AUTHOR} on {DATE}.
